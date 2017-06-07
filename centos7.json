@@ -29,7 +29,7 @@
       "http_directory": "http",
       "iso_urls": [
         "CentOS-7-x86_64-Minimal-1611.iso",
-        "./../../ISOs/CentOS-7-x86_64-Minimal-1611.iso"
+        "../../../ISOs/CentOS-7-x86_64-Minimal-1611.iso"
       ],
       "iso_checksum_type": "sha256",
       "iso_checksum": "27bd866242ee058b7a5754e83d8ee8403e216b93d130d800852a96f41c34d86a",
@@ -49,7 +49,7 @@
   ],
   "post-processors": [
     {
-      "output": "builds/{{.Provider}}-centos7.box",
+      "output": "../../../builds/{{.Provider}}-centos7.box",
       "type": "vagrant"
     }
   ]
